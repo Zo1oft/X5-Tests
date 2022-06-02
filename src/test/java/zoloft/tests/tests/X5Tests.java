@@ -15,7 +15,7 @@ public class X5Tests extends TestBase {
     @Test
     @Description("Проверка работы поиска на сайте")
     @DisplayName("Поиск")
-    void careerPageTest() {
+    void searchPageTest() {
         step("Открываем сайт X5 Retail Group", () -> {
            mainPage.openPage();
         });
@@ -34,7 +34,7 @@ public class X5Tests extends TestBase {
     @Test
     @Description("Проверка работы станицы 'Покупателю'")
     @DisplayName("Покупателю")
-    void casesPageTest() {
+    void customersPageTest() {
         step("Открываем сайт X5 Retail Group", () -> {
             mainPage.openPage();
         });
